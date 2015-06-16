@@ -1,1 +1,5 @@
 <beans>
+	<bean id="u" class="net.icanx.xiaoyang.dao.impl.UserDaoImpl" />
+	<!-- <bean id="userService" class="net.icanx.xiaoyang.service.UserService"> 
+		<property name ="userDao" bean="u"/> </bean> -->
+</beans>
