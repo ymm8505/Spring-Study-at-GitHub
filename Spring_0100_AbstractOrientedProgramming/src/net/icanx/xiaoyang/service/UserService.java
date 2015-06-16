@@ -12,7 +12,7 @@ public class UserService {
 
 	// 灵活性 从这里出来 想连接什么数据库 就New 一个什么数据库的实现类
 	// 从配置文件读取
-	private UserDAO userDAO = new UserDaoImpl();
+	private UserDAO userDAO;// = new UserDaoImpl();
 
 	public UserDAO getUserDAO() {
 		return userDAO;
