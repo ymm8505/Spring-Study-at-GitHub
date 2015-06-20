@@ -6,6 +6,6 @@
 
 	<bean id="u" class="net.icanx.xiaoyang.dao.impl.UserDaoImpl" />
 	<bean id="userService" class="net.icanx.xiaoyang.service.UserService"> 
-		<property name ="userDAO" ref="u"/> 
+		<property name ="userDAO" ref="u" /> 
 	</bean> 
 </beans>
